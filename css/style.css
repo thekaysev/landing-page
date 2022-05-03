@@ -12,9 +12,9 @@ body {
   max-width: 500px;
   margin: auto;
   background-color: #ed1566;
-  width: 123px;
+  width: 200px;
   border: none;
-  color: #fff5fa;
+  color: #ff93b3;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -56,6 +56,30 @@ body {
   opacity: 1;
   right: 0;
 }
-a {
+.header1 {
   color: white;
+  font-family: "Edwardian Script ITC", sans-serif;
+  font-size: 33pt;
+  color: pink;
+}
+
+.back {
+  max-width: 500px;
+  margin: auto;
+  background-color: transparent #ed1566;
+  width: 75px;
+  border: none;
+  color: #ff93b3;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Economica", sans-serif;
+  font-size: 19px;
+  border-radius: 12px;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
