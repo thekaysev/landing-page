@@ -38,13 +38,13 @@ body {
   transition: 0.5s;
 }
 .header1 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   font-size: 33pt;
   color: pink;
 }
 
 .header2 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   font-size: 33pt;
   color: pink;
 }
