@@ -38,13 +38,13 @@ body {
   transition: 0.5s;
 }
 .header1 {
-  font-family: "Edwardian Script ITC", sans-serif;
+  font-family: 'Allura', cursive;
   font-size: 33pt;
   color: pink;
 }
 
 .header2 {
-  font-family: "Edwardian Script ITC", sans-serif;
+  font-family: 'Allura', cursive;
   font-size: 33pt;
   color: pink;
 }
@@ -73,7 +73,7 @@ body {
 .gallery-header {
     color: #ed1566;
     text-align: center;
-    font: "ITC Edwardian Script", cursive;
+    font-family: 'Allura', cursive;;
     padding: 20px;
 }
 
