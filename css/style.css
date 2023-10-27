@@ -63,3 +63,29 @@ body {
   transition: all 0.5s;
   cursor: pointer;
 }
+
+.gallery-header {
+    color: #ed1566;
+    text-align: center;
+    font: "ITC Edwardian Script", cursive;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
