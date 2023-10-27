@@ -43,6 +43,12 @@ body {
   color: pink;
 }
 
+.header2 {
+  font-family: "Edwardian Script ITC", sans-serif;
+  font-size: 33pt;
+  color: pink;
+}
+
 .back {
   max-width: 500px;
   margin: auto;
