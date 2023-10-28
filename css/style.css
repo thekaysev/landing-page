@@ -94,3 +94,15 @@ body {
     height: auto;
     display: block;
 }
+
+/* Handle portrait and landscape photos */
+@media (min-width: 768px) {
+    .grid-item {
+        aspect-ratio: 1;
+    }
+
+    .grid-item img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
