@@ -77,20 +77,19 @@ body {
     padding: 20px;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
     padding: 20px;
 }
 
-.gallery-item {
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px #888;
+.grid-item {
+    position: relative;
+    overflow: hidden;
 }
 
-.gallery-item img {
+.grid-item img {
     max-width: 100%;
     height: auto;
     display: block;
