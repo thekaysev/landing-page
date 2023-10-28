@@ -1,5 +1,5 @@
 body {
-  background-color: orange;
+  background-color: yellow;
   max-width: 1000px;
   margin: auto;
   text-align: center;
@@ -117,4 +117,21 @@ body {
 .w-6 {
   grid-column: span 6
 }
-
+.h-1 {
+  grid-row: span 1;
+}
+.h-2 {
+  grid-row: span 2;
+}
+.h-3 {
+  grid-row: span 3;
+}
+.h-4 {
+  grid-row: span 4;
+}
+.h-5 {
+  grid-row: span 5;
+}
+.h-6 {
+  grid-row: span 6;
+}
